@@ -8,21 +8,46 @@
     <link rel="stylesheet" type="text/css" href="styles/normalize.min.css" />
     <link rel="shortcut icon" href="/images/favicon/favicon-96x96.png" />
     <link href="/fonts/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/scripts/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/scripts/slick/slick-theme.css"
+    />
     <title>Mhklara</title>
   </head>
   <body>
     <header id="top_header">
       <div class="wrapper">
-        <div class="logo">
-          <img src="/images/logo.png" alt="logo" />
-          <span class="logo-title">mhklara</span>
-        </div>
+        <a href="/">
+          <div class="logo">
+            <img src="/images/logo.png" alt="logo" />
+            <span class="logo-title">mhklara</span>
+          </div>
+        </a>
         <nav id="main_nav">
+          <a href="#" class="only-mobile active">Watch</a>
           <a href="#">Team</a>
           <a href="#">Blog</a>
           <a href="#">Subscribe</a>
         </nav>
       </div>
     </header>
+    <section class="main-banner">
+      <section
+        class="banner"
+        class="clearfix"
+        style="background-image:url(/images/background.jpg)"
+      ></section>
+      <section
+        class="banner"
+        class="clearfix"
+        style="background-image:url(/images/background2.jpg)"
+      ></section>
+    </section>
+    <div id="top_stories"></div>
+    <script src="scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/slick/slick.min.js"></script>
+    <script src="/scripts/app.js"></script>
   </body>
 </html>
