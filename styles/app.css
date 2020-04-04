@@ -92,7 +92,6 @@ h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-top: 1px solid;
   width: 90%;
   margin: 0 auto;
 }
@@ -234,6 +233,72 @@ section#web_series {
   font-size: 0.75em;
 }
 
+#subscribe {
+  text-align: center;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  width: 90%;
+  margin: 0 auto;
+  padding: 3em 0 4em 0;
+}
+
+.subscribe-inner {
+  width: 600px;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.subscribe-inner h2 {
+  font-size: 1.75em;
+}
+
+.icons {
+  font-size: 24px;
+  color: #ffffff;
+  margin-right: 0.5em;
+}
+
+.follow_us {
+  border: 1px solid #ffffff;
+  width: 15%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+}
+
+.paragraph {
+  margin-right: 1em;
+}
+
+.modal {
+  position: fixed;
+  display: none;
+  padding: 40px;
+  z-index: 100;
+  width: 700px;
+  height: 500px;
+  left: 40%;
+  margin-left: -200px;
+  background: #000;
+  top: 50%;
+  margin-top: -200px;
+  transition: all 0.5s ease-in;
+}
+
+.modal-inner {
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: -24px;
+  right: -29px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
 /* media queries start*/
 @media screen and (max-width: 767px) {
   #top_header .wrapper {
@@ -286,16 +351,22 @@ section#web_series {
     display: none !important;
   }
   .post:not(.slick-slide) {
+    width: unset;
+    margin-right: 3.5%;
+  }
+
+  #web_series_slider .post {
     width: 46%;
     margin-right: 3.5%;
   }
+
   #mr_kats_show header h2,
   #top_stories header h2,
   #web_series header h2 {
     font-size: 1.25em;
   }
   .title {
-    font-size: 0.95em;
+    font-size: 0.8em;
   }
   .post_info {
     font-size: 0.55em;
@@ -303,5 +374,29 @@ section#web_series {
   .m-30 {
     margin-bottom: 2em;
     display: flex;
+  }
+  #subscribe {
+    padding: 2em 0 3em 0;
+  }
+  .subscribe-inner h2 {
+    font-size: 1.25em;
+  }
+  .follow_us {
+    width: 55%;
+  }
+  .icons {
+    font-size: 20px;
+  }
+  .paragraph {
+    font-size: 16px;
+  }
+  .modal {
+    display: none;
+    width: 350px;
+    height: 300px;
+    left: 57%;
+    margin-left: -200px;
+    top: 50%;
+    transition: all 0.5s ease-in;
   }
 }

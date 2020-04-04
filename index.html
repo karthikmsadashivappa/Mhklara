@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="styles/app.css" />
     <link rel="stylesheet" type="text/css" href="styles/normalize.min.css" />
     <link rel="shortcut icon" href="/images/favicon/favicon-96x96.png" />
-    <link href="/fonts/css/all.css" rel="stylesheet" />
+    <link href="/fonts/font-awesome/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="/scripts/slick/slick.css" />
     <link
       rel="stylesheet"
@@ -29,21 +29,31 @@
           <a href="#" class="only-mobile active">Watch</a>
           <a href="#">Team</a>
           <a href="#">Blog</a>
-          <a href="#">Subscribe</a>
+          <a href="#subscribe">Subscribe</a>
         </nav>
       </div>
     </header>
     <section class="main-banner">
-      <section
-        class="banner"
-        class="clearfix"
-        style="background-image:url(/images/background.jpg)"
-      ></section>
-      <section
-        class="banner"
-        class="clearfix"
-        style="background-image:url(/images/background2.jpg)"
-      ></section>
+      <a
+        class="pop"
+        href="https://www.youtube.com/embed/jsVpCbcMkC8?rel=0&showinfo=0"
+      >
+        <section
+          class="banner"
+          class="clearfix"
+          style="background-image:url(/images/You_banner.png)"
+        ></section>
+      </a>
+      <a
+        class="pop"
+        href="https://www.youtube.com/embed/34jd8pspAEA?autoplay=1"
+      >
+        <section
+          class="banner"
+          class="clearfix"
+          style="background-image:url(/images/go_banner.png)"
+        ></section>
+      </a>
     </section>
     <section id="mr_kats_show" class="m-30">
       <div class="wrapper">
@@ -52,35 +62,48 @@
         </header>
         <div class="row" id="mr_kats_show_slider">
           <div class="post">
-            <img src="images/background.jpg" />
-            <div class="title">Mr.Kats Live video</div>
-            <div class="post_info">Comedy | 3 Minutes</div>
+            <a class="pop" href="https://www.youtube.com/embed/g_TPyrCWKUU">
+              <img src="images/Waar ait.png" />
+              <div class="title">Waar AIT</div>
+              <div class="post_info">Comedy | 3 Minutes</div>
+            </a>
           </div>
           <div class="post">
-            <img src="images/background.jpg" />
-            <div class="title">Mr.Kats Live video</div>
-            <div class="post_info">Comedy | 3 Minutes</div>
+            <a class="pop" href="https://www.youtube.com/embed/NzXzcHdDPZs">
+              <img src="images/insta_live.png" />
+              <div class="title">Mr.Kats Instagram Live</div>
+              <div class="post_info">Entertainment | 12 Minutes</div>
+            </a>
           </div>
           <div class="post">
-            <img src="images/mr.kats_wish1.png" />
-            <div class="title">Mr.Kats Live video</div>
-            <div class="post_info">Comedy | 3 Minutes</div>
+            <a
+              class="pop"
+              href="https://www.youtube.com/embed/34jd8pspAEA?autoplay=1"
+            >
+              <img src="images/go.png" />
+              <div class="title">Mr.Kats wish goes wrong</div>
+              <div class="post_info">Drama | 3 Minutes</div>
+            </a>
           </div>
-          <div class="post">
-            <img src="images/background.jpg" />
-            <div class="title">Mr.Kats Live video</div>
-            <div class="post_info">Comedy | 3 Minutes</div>
+          <div class="post ig">
+            <a href="https://www.instagram.com/tv/Bzvvn83n4Gv/" target="_blank">
+              <img src="images/Theo & Kate.png" />
+              <div class="title">Mr.Kats come back</div>
+              <div class="post_info">Comedy | 3 Minutes</div>
+            </a>
           </div>
-          <div class="post">
-            <img src="images/background.jpg" />
-            <div class="title">Mr.Kats Live video</div>
-            <div class="post_info">Comedy | 3 Minutes</div>
+          <div class="post ig">
+            <a href="https://www.instagram.com/tv/B3UWzQxnvl-/" target="_blank">
+              <img src="images/personal_life.png" />
+              <div class="title">Mr.Kats personal life</div>
+              <div class="post_info">Comedy | 3 Minutes</div>
+            </a>
           </div>
-          <div class="post">
-            <img src="images/background.jpg" />
-            <div class="title">Mr.Kats Live video</div>
-            <div class="post_info">Comedy | 3 Minutes</div>
-          </div>
+        </div>
+      </div>
+      <div class="modal" id="video-modal">
+        <div class="modal-inner">
+          <i class="far fa-times-circle close-button"></i>
         </div>
       </div>
     </section>
@@ -90,16 +113,32 @@
           <h2>Top Videos</h2>
         </header>
         <div class="row" id="top_stories_slider">
-          <div class="post">
-            <img src="images/swami.png" />
-            <div class="title">Mr.Kats Live video</div>
-            <div class="post_info">Comedy | 3 Minutes</div>
-          </div>
-          <div class="post">
-            <img src="images/valentinesday.png" />
-            <div class="title">Mr.Kats Live video</div>
-            <div class="post_info">Comedy | 3 Minutes</div>
-          </div>
+          <a
+            class="pop"
+            href="https://www.youtube.com/embed/jsVpCbcMkC8?rel=0&showinfo=0"
+          >
+            <div class="post">
+              <img src="images/you.png" />
+              <div class="title">What is 'YOU' ??</div>
+              <div class="post_info">Comedy | 3 Minutes</div>
+            </div>
+          </a>
+          <a class="pop" href="https://www.youtube.com/embed/0nBZWWYuWMU">
+            <div class="post">
+              <img src="images/Valentains day.png" />
+              <div class="title">Valentinesday Special</div>
+              <div class="post_info">Comedy | 4 Minutes</div>
+            </div>
+          </a>
+          <a class="pop" href="https://www.youtube.com/embed/3xxBojz2PXM">
+            <div class="post">
+              <img
+                src="images/Colorful Pop Tutorial Youtube Thumbnail (2).png"
+              />
+              <div class="title">Life @ Mhklara</div>
+              <div class="post_info">Comedy | 4 Minutes</div>
+            </div>
+          </a>
         </div>
       </div>
     </section>
@@ -111,22 +150,42 @@
         <div class="row" id="web_series_slider">
           <div class="post">
             <img src="images/coming-soon.jpg" />
-            <!--   <div class="title">Mr.Kats Live video</div>
-            <div class="post_info">Comedy | 3 Minutes</div> -->
+            <!-- <div class="title"></div>
+            <div class="post_info"></div> -->
           </div>
         </div>
       </div>
     </section>
-    <section id="subscribe"></section>
+    <section id="subscribe">
+      <div class="subscribe-inner">
+        <h2>Subscribe to our channel to be notified of the next upload.</h2>
+        <div
+          class="g-ytsubscribe"
+          data-channelid="UCEBc3kfs2kAE1uGhiMRes7Q"
+          data-layout="default"
+          data-count="default"
+        ></div>
+      </div>
+    </section>
     <footer id="main_footer">
       <div class="logo">
         <img src="/images/logo.png" alt="logo" />
         <span class="logo-title">mhklara</span>
       </div>
       <p class="copyright">&copy;Mhklara. All Rights Reserved.</p>
+      <div class="follow_us">
+        <p class="paragraph">Follow us:</p>
+        <a href="https://www.instagram.com/mhklar.a/" target="_blank"
+          ><i class="fab fa-instagram icons"></i
+        ></a>
+        <a href="https://www.facebook.com/mhklarastudio/" target="_blank"
+          ><i class="fab fa-facebook-square icons"></i
+        ></a>
+      </div>
     </footer>
     <script src="scripts/jquery.min.js"></script>
     <script type="text/javascript" src="/scripts/slick/slick.min.js"></script>
     <script src="/scripts/app.js"></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
   </body>
 </html>
