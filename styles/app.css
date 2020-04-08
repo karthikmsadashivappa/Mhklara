@@ -348,6 +348,16 @@ section#web_series {
   font-size: 0.95em;
 }
 
+.team-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-title {
+  font-size: 3em;
+}
+
 /* media queries start*/
 @media screen and (max-width: 767px) {
   .youtube {
@@ -473,5 +483,8 @@ section#web_series {
 
   .info {
     font-size: 0.75em;
+  }
+  .team-title {
+    font-size: 2em;
   }
 }
