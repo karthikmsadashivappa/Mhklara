@@ -131,9 +131,20 @@ h6 {
 
 .banner {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain !important;
   width: 100%;
-  height: 500px !important;
+  max-width: 100%;
+  height: 350px !important;
+}
+
+#banner1 {
+  background: url(/images/sample.png);
+  background-repeat: no-repeat;
+}
+
+#banner2 {
+  background: url(/images/goes.png);
+  background-repeat: no-repeat;
 }
 
 ul.slick-dots {
@@ -299,11 +310,49 @@ section#web_series {
   cursor: pointer;
 }
 
+.team-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-wrapper {
+  width: 33.3333%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 2em 0;
+}
+
+.profile-inner img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.team-titles {
+  text-align: center;
+}
+
+.name {
+  font-size: 1.55em;
+  margin-bottom: 0px;
+}
+
+.info {
+  font-size: 0.95em;
+}
+
 /* media queries start*/
 @media screen and (max-width: 767px) {
   #top_header .wrapper {
     align-items: center;
     flex-direction: column;
+  }
+
+  #banner1 {
+    background: url(/images/You_banner.png);
+  }
+
+  #banner2 {
+    background: url(/images/go_banner.png);
   }
 
   #main_nav {
@@ -335,6 +384,7 @@ section#web_series {
   }
   .banner {
     height: 200px !important;
+    background-size: cover !important;
   }
   ul.slick-dots {
     bottom: 2em;
@@ -398,5 +448,16 @@ section#web_series {
     margin-left: -200px;
     top: 50%;
     transition: all 0.5s ease-in;
+  }
+  .profile-wrapper {
+    width: 100%;
+    margin: 1em 0;
+  }
+  .name {
+    font-size: 1.35em;
+  }
+
+  .info {
+    font-size: 0.75em;
   }
 }
