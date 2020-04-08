@@ -120,11 +120,17 @@ h6 {
 
 #main_nav {
   font-size: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.youtube {
+  width: 50px;
 }
 
 #main_nav a {
   text-decoration: none;
-  margin-left: 1.2em;
+  margin-left: 2em;
   color: #ffffff;
   text-align: center;
 }
@@ -295,6 +301,8 @@ section#web_series {
   background: #000;
   top: 50%;
   margin-top: -200px;
+  min-height: 300px;
+  overflow-y: scroll;
   transition: all 0.5s ease-in;
 }
 
@@ -342,6 +350,10 @@ section#web_series {
 
 /* media queries start*/
 @media screen and (max-width: 767px) {
+  .youtube {
+    width: 30px;
+  }
+
   #top_header .wrapper {
     align-items: center;
     flex-direction: column;
@@ -447,6 +459,8 @@ section#web_series {
     left: 57%;
     margin-left: -200px;
     top: 50%;
+    min-height: 300px;
+    overflow-y: scroll;
     transition: all 0.5s ease-in;
   }
   .profile-wrapper {
