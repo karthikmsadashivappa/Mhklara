@@ -367,7 +367,7 @@ section#web_series {
 
 .story-image-wrapper > img {
   width: 100%;
-  max-width: 500px;
+  max-width: 500px !important;
 }
 
 .story-text {
