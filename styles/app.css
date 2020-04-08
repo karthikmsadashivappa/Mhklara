@@ -125,7 +125,7 @@ h6 {
 }
 
 .youtube {
-  width: 50px;
+  width: 50px !important;
 }
 
 #main_nav a {
@@ -351,7 +351,7 @@ section#web_series {
 /* media queries start*/
 @media screen and (max-width: 767px) {
   .youtube {
-    width: 30px;
+    width: 30px !important;
   }
 
   #top_header .wrapper {
