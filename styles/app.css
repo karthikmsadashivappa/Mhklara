@@ -511,4 +511,8 @@ section#web_series {
     line-height: 1.6em;
     text-align: left;
   }
+  .story-image-wrapper > img {
+    width: 80%;
+    max-width: 100%;
+  }
 }
