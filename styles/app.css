@@ -358,6 +358,23 @@ section#web_series {
   font-size: 3em;
 }
 
+.story-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.story-image-wrapper > img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.story-text {
+  margin: 2em 4em;
+  font-size: 1.25em;
+  line-height: 1.7em;
+}
+
 /* media queries start*/
 @media screen and (max-width: 767px) {
   .youtube {
@@ -486,5 +503,11 @@ section#web_series {
   }
   .team-title {
     font-size: 2em;
+  }
+  .story-text {
+    margin: 1em auto;
+    font-size: 0.95em;
+    line-height: 1.6em;
+    text-align: left;
   }
 }
