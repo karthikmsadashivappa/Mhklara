@@ -363,11 +363,12 @@ section#web_series {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  width: 35%;
 }
 
 .story-image-wrapper > img {
   width: 100%;
-  max-width: 500px !important;
+  max-width: 100%;
 }
 
 .story-text {
@@ -511,8 +512,11 @@ section#web_series {
     line-height: 1.6em;
     text-align: left;
   }
+  .story-image-wrapper {
+    width: 100%;
+  }
   .story-image-wrapper > img {
-    width: 80%;
+    width: 100%;
     max-width: 100%;
   }
 }
