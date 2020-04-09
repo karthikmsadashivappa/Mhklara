@@ -520,3 +520,12 @@ section#web_series {
     max-width: 100%;
   }
 }
+
+@media screen and (max-width: 320px) {
+  #web_series_slider .post {
+    width: 97%;
+  }
+  .follow_us {
+    width: 65%;
+  }
+}
