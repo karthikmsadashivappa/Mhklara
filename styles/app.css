@@ -511,7 +511,8 @@ section#web_series {
     margin-right: 3.5%;
   }
 
-  #web_series_slider .post {
+  #web_series_slider .post,
+  #naanu_series_slider .post {
     width: 46%;
     margin-right: 3.5%;
   }
@@ -593,7 +594,8 @@ section#web_series {
 }
 
 @media screen and (max-width: 320px) {
-  #web_series_slider .post {
+  #web_series_slider .post,
+  #naanu_series_slider .post {
     width: 97%;
   }
   .follow_us {
