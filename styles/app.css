@@ -591,6 +591,9 @@ section#web_series {
     animation-duration: 3s;
     animation-delay: 3s;
   }
+  .kannada {
+    font-size: 1.3rem;
+  }
 }
 
 @media screen and (max-width: 320px) {
