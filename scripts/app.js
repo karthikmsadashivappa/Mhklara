@@ -54,6 +54,31 @@ $("#top_stories_slider").slick({
   ]
 });
 
+$("#naanu_series_slider").slick({
+  dots: false,
+  infinite: true,
+  slidesToScroll: 1,
+  arrows: true,
+  responsive: [
+    {
+      breakpoint: 9999,
+      settings: "unslick"
+    },
+    {
+      breakpoint: 620,
+      settings: {
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 345,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
 $(".pop").on("click", function(e) {
   var wrapper = $("#video-modal");
   var href = $(this).attr("href");
