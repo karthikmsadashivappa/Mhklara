@@ -37,7 +37,9 @@ $("#top_stories_slider").slick({
   responsive: [
     {
       breakpoint: 9999,
-      settings: "unslick"
+      settings: {
+        slidesToShow: 4
+      }
     },
     {
       breakpoint: 620,
