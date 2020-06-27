@@ -32,15 +32,10 @@ $("#mr_kats_show_slider").slick({
 $("#top_stories_slider").slick({
   dots: false,
   infinite: true,
+  slidesToShow: 4,
   slidesToScroll: 1,
   arrows: true,
   responsive: [
-    {
-      breakpoint: 9999,
-      settings: {
-        slidesToShow: 4
-      }
-    },
     {
       breakpoint: 620,
       settings: {
