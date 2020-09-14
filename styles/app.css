@@ -153,6 +153,11 @@ h6 {
   background-repeat: no-repeat;
 }
 
+#banner3 {
+  background: url(/images/rcbbannerfinal.png);
+  background-repeat: no-repeat;
+}
+
 ul.slick-dots {
   display: flex;
   justify-content: center;
@@ -455,6 +460,11 @@ section#web_series {
 
   #banner2 {
     background: url(/images/go_banner.png);
+  }
+
+  #banner3 {
+    background: url(/images/rcbmobile.png);
+    background-repeat: no-repeat;
   }
 
   #main_nav {
