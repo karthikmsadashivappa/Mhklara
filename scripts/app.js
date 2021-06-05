@@ -58,6 +58,27 @@ $("#naanu_series_slider").slick({
   arrows: true,
   responsive: [
     {
+      breakpoint: 620,
+      settings: {
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 345,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
+$("#kgf-rcb").slick({
+  dots: false,
+  infinite: true,
+  slidesToScroll: 1,
+  arrows: true,
+  responsive: [
+    {
       breakpoint: 9999,
       settings: "unslick"
     },
